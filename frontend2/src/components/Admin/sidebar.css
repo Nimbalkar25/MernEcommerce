@@ -1,0 +1,100 @@
+.sidebar {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+}
+
+.sidebar > a:first-child {
+  padding: 0;
+}
+
+.sidebar > a > img {
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.sidebar > a > img:hover {
+  filter: drop-shadow(0 0 10px tomato);
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.493);
+  font: 200 1rem "Roboto";
+  padding: 2rem;
+  transition: all 0.5s;
+}
+
+.sidebar a:hover {
+  color: tomato;
+  transform: scale(1.1);
+}
+
+.sidebar a > P {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar a > p > svg {
+  margin-right: 0.5rem;
+}
+
+.MuiTypography-root {
+  background-color: #fff !important;
+}
+
+
+.customAccordion {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+
+}
+
+.customAccordion::before {
+  display: none;
+}
+
+.customAccordionSummary {
+  padding: 0;
+  min-height: unset;
+}
+
+.customAccordionSummary.Mui-expanded {
+  min-height: unset;
+}
+
+.customAccordionLabel {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white; /* or inherit */
+  font-weight: 500;
+  padding-left: 17px !important;
+}
+
+.customAccordionIcon {
+  margin-right: 8px;
+}
+
+.customAccordionDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 4px 0;
+}
+
+.customAccordionItem {
+  display: flex;
+  align-items: center;
+  color: white; /* or your theme */
+  text-decoration: none;
+  padding: 20px !important;
+}
+
+.customAccordionItem:hover {
+  color: #ffffff; /* ensures white on hover */
+}
+
+
